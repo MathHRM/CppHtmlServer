@@ -74,5 +74,22 @@ int main() {
 	result = listen(server_socket, AF_INET); // Then Actually Start Listening for incoming Connections.
 
 
+	client_socket = accept(server_socket, NULL, NULL);
+
+	if (client_socket == SOCKET_ERROR) { // if Accepting Connection is a Error
+		std::cerr << "Accept FAiled!" << WSAGetLastError() << std::endl;
+		getchar(); 
+		return 1;
+	}
+
+	std::cout << "A Client Connected. Sending a Message and closing Connection" << std::endl; // notify user that someone connected
+	send(client_socket, message, strlen(message), NULL); // Send Client a Message
+
+	recv(client_socket, reply, sizeof(reply), NULL); // Just in case if the Client sends something, We Receive it.
+
+	closesocket(client_socket); // close the Client Socket now that our Work is Complete.
+	WSACleanup(); // Clean Windows Socket API.
+
+	getchar();
 	return 0;
 }
