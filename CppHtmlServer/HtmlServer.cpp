@@ -6,12 +6,11 @@
 #include <WinSock2.h>
 #include <WS2tcpip.h>
 
-// Buffer 
-#define Buffer 1500
 // A Pragma comment. Loading Library 
+// pragma: https://learn.microsoft.com/pt-br/cpp/preprocessor/comment-c-cpp?view=msvc-170
 #pragma comment(lib, "ws2_32.lib")
 
 
 int main() {
-	printf("opa");
+	
 }
