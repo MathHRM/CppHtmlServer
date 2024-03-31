@@ -9,8 +9,8 @@
   A escolha de utilizar c++ se deu pela minha vontade de descobrir mais sobre essa linguagem que parecia tão estranha
   (quem teve a ideia de utilizar << e >>?)
 
-## Detalhes
+~~## Detalhes
   A princípio, esse projeto seria feito no site [CodeCrafters](https://app.codecrafters.io)
   
   Não o conclui lá pois a medida que fui realizando as tarefas, percebi que os sistemas operacionais da minha máquina e do servidor
-de testes do site eram incompativeis, ou seja, o código inicial que eles forneciam utlizava as bibliotecas linux, mas para meus   testes eu deveria utilizar as do windows. Sendo assim, não foi possível relizar essa tarefa lá.
+de testes do site eram incompativeis, ou seja, o código inicial que eles forneciam utlizava as bibliotecas linux, mas para meus   testes eu deveria utilizar as do windows. Sendo assim, não foi possível relizar essa tarefa lá.~~
