@@ -1,3 +1,6 @@
+# Atualização
+  Após descobrir sobre WSL (windows subsystem for linux) é posível utilizar as bibliotecas de linux e terminar o projeto dentro do site, então não é mais necessário realizá-lo aqui.
+
 # Servidor simples com c++
 
 ## Objetivo
@@ -11,6 +14,3 @@
   
   Não o conclui lá pois a medida que fui realizando as tarefas, percebi que os sistemas operacionais da minha máquina e do servidor
 de testes do site eram incompativeis, ou seja, o código inicial que eles forneciam utlizava as bibliotecas linux, mas para meus   testes eu deveria utilizar as do windows. Sendo assim, não foi possível relizar essa tarefa lá.
-
-# Atualização
-  Após descobrir sobre WSL (windows subsystem for linux) é posível utilizar as bibliotecas de linux e terminar o projeto dentro do site, então não é mais necessário realizá-lo aqui.
