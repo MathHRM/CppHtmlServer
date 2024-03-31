@@ -9,7 +9,7 @@
   A escolha de utilizar c++ se deu pela minha vontade de descobrir mais sobre essa linguagem que parecia tão estranha
   (quem teve a ideia de utilizar << e >>?)
 
-~~## Detalhes~~
+## ~~Detalhes~~
   ~~A princípio, esse projeto seria feito no site [CodeCrafters](https://app.codecrafters.io)~~
   
   ~~Não o conclui lá pois a medida que fui realizando as tarefas, percebi que os sistemas operacionais da minha máquina e do servidor
